@@ -1,5 +1,6 @@
 #include "loginwindow.h"
-#include "ui_loginwindow.h"\
+#include "ui_loginwindow.h"
+#include <QMessageBox>
 
 
 LoginWindow::LoginWindow(QWidget *parent)
@@ -23,11 +24,11 @@ void LoginWindow::on_Login_clicked()
 }
 
 
+
 void LoginWindow::on_Register_clicked()
 {
 
-    a[i].username=ui->username->text();
-    a[i].password=ui->password->text();
+
 
 
 }

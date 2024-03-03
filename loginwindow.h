@@ -2,6 +2,7 @@
 #define LOGINWINDOW_H
 
 #include <QMainWindow>
+#include<QMessageBox>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -15,6 +16,7 @@ class LoginWindow : public QMainWindow
 
 public:
     LoginWindow(QWidget *parent = nullptr);
+
     ~LoginWindow();
 
 private slots:
@@ -24,14 +26,6 @@ private slots:
 
 private:
     Ui::LoginWindow *ui;
-    struct customer
-    {
-        QString username;
-        QString password;
-    };
-    customer *a = new customer[100];
 
-
-    int i=0;
 };
 #endif // LOGINWINDOW_H
