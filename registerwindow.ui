@@ -411,12 +411,12 @@
     <rect>
      <x>450</x>
      <y>30</y>
-     <width>49</width>
+     <width>171</width>
      <height>16</height>
     </rect>
    </property>
    <property name="text">
-    <string>TextLabel</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;TextLabel&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="filltheform">
@@ -424,12 +424,12 @@
     <rect>
      <x>220</x>
      <y>600</y>
-     <width>49</width>
+     <width>161</width>
      <height>16</height>
     </rect>
    </property>
    <property name="text">
-    <string>TextLabel</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;TextLabel&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="undertheage">
@@ -437,12 +437,12 @@
     <rect>
      <x>570</x>
      <y>250</y>
-     <width>49</width>
+     <width>111</width>
      <height>16</height>
     </rect>
    </property>
    <property name="text">
-    <string>TextLabel</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;TextLabel&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="nomatch">
@@ -450,12 +450,12 @@
     <rect>
      <x>450</x>
      <y>110</y>
-     <width>49</width>
+     <width>171</width>
      <height>16</height>
     </rect>
    </property>
    <property name="text">
-    <string>TextLabel</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;TextLabel&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
  </widget>
