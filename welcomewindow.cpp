@@ -1,6 +1,8 @@
 #include "welcomewindow.h"
 #include "ui_welcomewindow.h"
 #include "loginwindow.h"
+#include<QPixmap>
+
 
 WelcomeWindow::WelcomeWindow(QWidget *parent,QString username,int age)
     : QDialog(parent)
@@ -9,6 +11,11 @@ WelcomeWindow::WelcomeWindow(QWidget *parent,QString username,int age)
     ui->setupUi(this);
     QString str = QString::number(age);
     ui->Hello->setText("Hello "+ username+ str);
+
+    QPixmap pix ("C:\\Users\\Dell\\Desktop\\Test\\Welcome.png");
+    int w = ui->Photo->width();
+    int h = ui->Photo->height();
+    ui->Photo->setPixmap(pix.scaled(w,h,Qt::KeepAspectRatio));
 
 }
 
@@ -23,4 +30,7 @@ void WelcomeWindow::on_Logout_clicked()
     LoginWindow* Login = new LoginWindow(this);
     Login->show();
 }
+
+
+
 

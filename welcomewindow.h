@@ -2,6 +2,7 @@
 #define WELCOMEWINDOW_H
 
 #include <QDialog>
+#include<QPixmap>
 
 namespace Ui {
 class WelcomeWindow;
@@ -17,6 +18,7 @@ public:
 
 private slots:
     void on_Logout_clicked();
+
 
 private:
     Ui::WelcomeWindow *ui;
