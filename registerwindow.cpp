@@ -76,6 +76,7 @@ void RegisterWindow::on_pushButton_clicked()
                     ||!ui->checkBox_6->isChecked()){
                     ui->filltheform->setVisible(true);
                     ui->filltheform->setText("All fields must be filled");
+                    //hiii
                 }
         }
         if(p1&&p2&&p3&&p4){
