@@ -29,7 +29,7 @@ void LoginWindow::on_Login_clicked()
         }
     }
     ui->Wrong->setVisible(1);
-    ui->Wrong->setText("Wrong username or password");
+
 }
 
 

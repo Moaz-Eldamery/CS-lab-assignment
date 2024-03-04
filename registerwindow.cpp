@@ -49,19 +49,19 @@ void RegisterWindow::on_pushButton_clicked()
     for(int i=0;i<usercount;i++){
         if(uname==username[i]){
             ui->userteken->setVisible(true);
-            ui->userteken->setText("Username already existing!");
+
         }
         else{p1 =1;}
     }
     if(pass!=pass2){
         ui->nomatch->setVisible(true);
-        ui->nomatch->setText("Not matching");
+
     }
     else{p2 =1;}
     int x = year.toInt();
     if(2024-x<12){
         ui->undertheage->setVisible(true);
-        ui->undertheage->setText("Age is less than 12");
+
     }
     else{p3 =1;}
     if(uname.isEmpty()||pass.isEmpty()||pass2.isEmpty()||
@@ -73,7 +73,7 @@ void RegisterWindow::on_pushButton_clicked()
                 &&!ui->checkBox_5->isChecked()
                 &&!ui->checkBox_6->isChecked())){
                 ui->filltheform->setVisible(true);
-                ui->filltheform->setText("All fields must be filled");
+
                 //hiii
             }
     else{p4=1;
