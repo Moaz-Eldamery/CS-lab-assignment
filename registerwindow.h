@@ -2,6 +2,8 @@
 #define REGISTERWINDOW_H
 
 #include <QDialog>
+#include <QMainWindow>
+#include<QMessageBox>
 
 namespace Ui {
 class RegisterWindow;
