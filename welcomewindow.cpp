@@ -9,7 +9,7 @@ WelcomeWindow::WelcomeWindow(QWidget *parent,QString username,int age)
     , ui(new Ui::WelcomeWindow)
 {
     ui->setupUi(this);
-    QPixmap pix ("B://file//CS-lab-assignment//welcome.jpg");
+    QPixmap pix ("://sora//welcome.jpg");
     int w = ui->Photo->width();
     int h = ui->Photo->height();
     ui->Photo->setPixmap(pix.scaled(w,h,Qt::KeepAspectRatio));
