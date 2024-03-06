@@ -9,13 +9,14 @@ WelcomeWindow::WelcomeWindow(QWidget *parent,QString username,int age)
     , ui(new Ui::WelcomeWindow)
 {
     ui->setupUi(this);
-    QString str = QString::number(age);
-    ui->Hello->setText("Hello "+ username+ str);
-
-    QPixmap pix ("C:\\Users\\Dell\\Desktop\\Test\\Welcome.png");
+    QPixmap pix ("B://file//CS-lab-assignment//welcome.jpg");
     int w = ui->Photo->width();
     int h = ui->Photo->height();
     ui->Photo->setPixmap(pix.scaled(w,h,Qt::KeepAspectRatio));
+    QString str = QString::number(age);
+    ui->Hello->setText("Hello "+ username+ str);
+
+
 
 }
 
